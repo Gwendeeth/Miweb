@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+/* Contenido de Body*/
+
+body {
+  background-color: rgb(71, 30, 67);
+  margin: 20px;
+  padding: 10px;
+  border: 5px;
+}
+
+/* Contenido de Body fin*/
+
+/* Contenido de header*/
+
+header {
+  background-color: rgb(151, 127, 195);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 5px;
+  box-sizing: border-box;
+}
+
+/* Contenido de header fin*/
+
+/* Contenido de main*/
+
+main {
+  background-color: rgb(169, 96, 205);
+  color: rgb(72, 24, 117);
+  margin: 20px;
+  padding: 10px;
+  border: 5px;
+}
+
+/* Contenido de main fin*/
+
+/* Contenido de footer*/
+
+footer {
+  background-color: rgb(230, 124, 230);
+  margin: 20px;
+  padding: 20px;
+  border: 5px;
+}
+
+/* Contenido de footer fin*/
+
+/* Contenido de parrafos*/
+
+.container-2 {
+  font-size: 15px;
+  color: rgb(66, 32, 99);
+  text-align: center;
+}
+
+/* Contenido de parrafos fin*/
+
+ #identificador{
+ padding: 50px;
+ }
+
+/*Botones*/
+
+ .button {
+  color: blueviolet;
+  background-color: rgb(83, 37, 126);
+  font-weight: bold;
+  padding: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  border: 2px solid rgb(42, 11, 72) ;
+  border-radius: 20px;
+  cursor: pointer;
+ }
+ .button-little {
+  color: blueviolet;
+  background-color: rgb(155, 93, 212);
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 1100px;
+  text-align: center;
+  border: 2px solid rgb(42, 11, 72) ;
+  border-radius: 50px;
+  cursor: pointer;
+ }
+
+.otros {
+  font-style: italic;
+  background-color: rgb(47, 47, 124);
+}
+
+/*Botones-fin*/
+
+
+/*Propiedades de clase*/
+ #seccion-principal.section-1 {
+  background-color: rgb(143, 94, 188);
+  padding: 20px;
+ }
+
+#seccion-principal.section2 {
+  padding-top: 20px;
+}
+#seccion-principal.section3 {
+  padding-top: 20px;
+  padding-left: 50;
+} 
+ .fuente-clara {color: rgb(103, 31, 170);}
+
+ .fuente-oscura {color: rgb(44, 7, 78);}
+
+ .fuente-acento {color: rgb(42, 8, 73);}
+
+ nav ul li a {
+  color: rgb(16, 1, 30);
+  padding: 20bx;
+  font-style: oblique;
+  margin-left: 50px;
+ }
+ /*Propiedades de clase fin*/
+
+  /*Propiedades de imagen*/
+  
+.container-3 {
+  margin: 0 auto;
+  align-content: center;
+  padding: 20px;
+  width: 200%;
+  height: 200%;
+}
+
+.position {
+  clear: both;
+}
+
+.container-1 {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  border: 0;
+  margin: 0;
+}
+/*Propiedades de imagen fin*/
